@@ -1,6 +1,7 @@
 body{
-    display: grid;
-    
+    display: flex;
+
+
 }
 
 
@@ -16,27 +17,36 @@ flex-direction: column;
 width: 1440px;
 height: 900px;
 justify-content: space-evenly;
+
 }
 
 
 .qrbackground {
-    background-color: antiquewhite;
     display: flex;
-    width: 720px;
-    height: 720px;
+    width: 1071px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color:antiquewhite;
 }
-
 .truebackground {
     display: flex;
-    width: 600px;
+    width: 1071px;
     height: 600px;
-
+    align-items: center;
+    justify-content: center;
 }
 
 .qrimg {
     display: flex;
     width: 300px;
     height: 300px;
+    
 
 }
 
+
+.Headingforqr{
+    display: flex;
+}
